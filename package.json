@@ -1,0 +1,15 @@
+{
+  "name": "perfomance-test-bv",
+  "type": "module",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "start": "node scripts/k6.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "k6": "^0.0.0"
+  }
+}
